@@ -18,10 +18,9 @@ public class Main {
       return "DAY";
     } else if(zonedDateTime1.getHour() != zonedDateTime2.getHour()){
       return "HOUR";
-    } else if (zonedDateTime1.equals(zonedDateTime2)) {
+    } else {
       return "0";
     }
-    return "1";
   }
 
   public static void main(String[] args) {
